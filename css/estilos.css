@@ -77,5 +77,70 @@ ul, li {
 .actual {
     background: #007ed3;
 }
- 
+
+/*-------------RESPONSIVE DESIGN----------------*/
+
+@media screen and (max-width: 1300px) {
+    .fotos {
+        max-width: 1100px;
+    }  
+}
+
+@media screen and (max-width: 1200px) {
+    .fotos {
+        max-width: 1000px;
+    }  
+}
+
+@media screen and (max-width: 1100px) {
+    .fotos {
+        max-width: 900px;
+    }  
+}
+
+@media screen and (max-width: 1000px) {
+    .fotos {
+        max-width: 800px;
+        height: 400px;
+    }  
+}
+
+@media screen and (max-width: 900px) {
+    .fotos {
+        max-width: 700px;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .fotos {
+        max-width: 600px;
+        height: 300px;
+    }  
+}
+
+@media screen and (max-width: 700px) {
+    .fotos {
+        max-width: 500px;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    .fotos {
+        max-width: 400px;
+        height: 200px;
+    }  
+}
+
+@media screen and (max-width: 500px) {
+    .fotos {
+        max-width: 300px;
+        height: 150px;
+    }  
+}
+
+@media screen and (max-width: 350px) {
+    .fotos {
+        max-width: 250px;
+        height: 130px;
+    }  
 }
