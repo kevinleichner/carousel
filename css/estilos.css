@@ -77,15 +77,5 @@ ul, li {
 .actual {
     background: #007ed3;
 }
-
-@media screen and (max-width: 800px) {
-    .fotos {
-        height: 300px;
-    }  
-}
-
-@media screen and (max-width: 600px) {
-    .fotos {
-        height: 200px;
-    }  
+ 
 }
