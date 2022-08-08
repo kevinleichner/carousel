@@ -6,10 +6,11 @@
 body{
 	background-color: #340f19;
     font-family: sans-serif;
+    height: 1000px;
 }
 
 .carousel {
-    margin-top: 80px;
+    margin: 80px 50px;
 }
 
 .fotos {
@@ -82,65 +83,70 @@ ul, li {
 
 @media screen and (max-width: 1300px) {
     .fotos {
-        max-width: 1100px;
+        height: 460px;
     }  
 }
 
 @media screen and (max-width: 1200px) {
     .fotos {
-        max-width: 1000px;
+        height: 460px;
     }  
 }
 
 @media screen and (max-width: 1100px) {
     .fotos {
-        max-width: 900px;
+        height: 420px;
     }  
 }
 
 @media screen and (max-width: 1000px) {
     .fotos {
-        max-width: 800px;
-        height: 400px;
+        height: 375px;
     }  
 }
 
 @media screen and (max-width: 900px) {
     .fotos {
-        max-width: 700px;
+        height: 335px;
     }  
 }
 
 @media screen and (max-width: 800px) {
     .fotos {
-        max-width: 600px;
-        height: 300px;
+        height: 295px;
     }  
 }
 
 @media screen and (max-width: 700px) {
     .fotos {
-        max-width: 500px;
+        height: 250px;
     }  
 }
 
 @media screen and (max-width: 600px) {
     .fotos {
-        max-width: 400px;
-        height: 200px;
+        height: 210px;
     }  
 }
 
 @media screen and (max-width: 500px) {
     .fotos {
-        max-width: 300px;
-        height: 150px;
-    }  
-}
+        height: 190px;
+    }
+    .carousel {
+    margin: 50px 30px;
+    }
 
-@media screen and (max-width: 350px) {
+}  
+
+@media screen and (max-width: 400px) {
     .fotos {
-        max-width: 250px;
-        height: 130px;
-    }  
-}
+        height: 150px;
+    } 
+} 
+
+@media screen and (max-width: 300px) {
+    .fotos {
+        height: 110px;
+    } 
+} 
